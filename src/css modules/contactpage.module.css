@@ -1,0 +1,45 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 100px;
+  background-color: whitesmoke;
+}
+
+.Background {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: floralwhite;
+}
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.labelSize {
+  font-size: 20px;
+}
+
+.liSize {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Button {
+  width: 500px;
+  cursor: pointer;
+}
+
+.ButtonPosition {
+  display: flex;
+  justify-content: center;
+}
