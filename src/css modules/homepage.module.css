@@ -1,9 +1,10 @@
 .Container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  padding: 100px;
+  width: 100vw;
+  height: 95vh;
+  background-color: whitesmoke;
+}
+
+html {
   background-color: whitesmoke;
 }
 

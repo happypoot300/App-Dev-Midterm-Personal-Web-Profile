@@ -3,31 +3,36 @@ import { Container, Alert } from "react-bootstrap";
 
 export default function ContactPage(props) {
   return (
-    <Container fluid className={Style.Container}>
-      <Alert variant="success" className="mb-5">
-        <h1>
-          Thank you, {props.name}!
-          <br />
-          Your message has been sent!
-          <br />
-        </h1>
-      </Alert>
+    <div className={Style.Container}>
+      <Container
+        fluid
+        className="d-flex flex-column align-items-center justify-content-center"
+      >
+        <Alert variant="success" className="col-md-10 col-12 w-sm-auto mt-5">
+          <h1>
+            Thank you, {props.name}!
+            <br />
+            Your message has been sent!
+            <br />
+          </h1>
+        </Alert>
 
-      <Alert variant="success">
-        <h1 className="text-start">
-          Name: {props.name}
-          <br />
-          <hr />
-        </h1>
+        <Alert variant="success" className="col-md-10 col-12 w-sm-auto mt-5">
+          <p className="text-start text-wrap">
+            Name: {props.name}
+            <br />
+            <hr />
+          </p>
 
-        <h1 className="text-start">
-          Email: {props.email}
-          <br />
-          <hr />
-        </h1>
+          <p className="text-start text-wrap">
+            Email: {props.email}
+            <br />
+            <hr />
+          </p>
 
-        <h1 className="text-start">Message: {props.message}</h1>
-      </Alert>
-    </Container>
+          <p className="text-start text-wrap">Message: {props.message}</p>
+        </Alert>
+      </Container>
+    </div>
   );
 }
