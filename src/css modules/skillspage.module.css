@@ -1,6 +1,6 @@
 .Container {
-  height: 100vh;
-  padding: 10vw 30vw 0px 30vw;
+  width: 100vw;
+  height: 95vh;
   background-color: whitesmoke;
 }
 
