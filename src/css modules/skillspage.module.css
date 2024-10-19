@@ -1,0 +1,22 @@
+.Container {
+  height: 100vh;
+  padding: 10vw 30vw 0px 30vw;
+  background-color: whitesmoke;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.liSize {
+  font-size: 20px;
+  margin: 10px;
+}
